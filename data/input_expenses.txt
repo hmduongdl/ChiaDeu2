@@ -1,0 +1,39 @@
+================================================================================
+          HƯỚNG DẪN KỊCH BẢN TEST BẰNG FILE TXT & DỮ LIỆU MẪU
+================================================================================
+
+1. FILE DANH SÁCH THÀNH VIÊN TEST:
+   - File 1: data/members.txt (5 thành viên đơn giản: TV01 - TV05)
+   - File 2: data/members_large.txt (10 thành viên đầy đủ họ tên)
+
+2. KỊCH BẢN CHẠY TEST THUẬT TOÁN SIMPLIFY DEBTS (BÀI TOÁN MẪU):
+   - Bước 1: Chọn menu 1.2 -> Nhập "data/members.txt" để load 5 thành viên.
+   - Bước 2: Chọn menu 4.1 -> Ghi khoản chi 1:
+       + Mã người trả: TV01 (An)
+       + Mô tả: An trả tiền ăn tối
+       + Số tiền: 300000
+       + Kiểu chia: 4 (CUSTOM)
+       + Số tiền chịu TV01: 100000
+       + Số tiền chịu TV02: 120000
+       + Số tiền chịu TV03: 80000
+       + Số tiền chịu TV04: 0
+       + Số tiền chịu TV05: 0
+   - Bước 3: Chọn menu 4.1 -> Ghi khoản chi 2:
+       + Mã người trả: TV03 (Châu)
+       + Mô tả: Châu ứng mua đồ linh tinh
+       + Số tiền: 60000
+       + Kiểu chia: 4 (CUSTOM)
+       + Số tiền chịu TV01: 0
+       + Số tiền chịu TV02: 0
+       + Số tiền chịu TV03: 60000
+       + Số tiền chịu TV04: 0
+       + Số tiền chịu TV05: 0
+   - Bước 4: Chọn menu 4.2 -> Xem số dư ròng từng thành viên.
+   - Bước 5: Chọn menu 4.3 -> Chốt kỳ quyết toán bằng 2 Max-Heaps.
+   - Kết quả kỳ vọng hiển thị:
+       + Bình (TV02) trả An (TV01): 120.000 VND
+       + Châu (TV03) trả An (TV01):  80.000 VND
+
+3. GÕ 'demo' TRỰC TIẾP TRONG CHƯƠNG TRÌNH:
+   - Chỉ cần gõ chữ 'demo' ở màn hình chính, hệ thống sẽ tự động kích hoạt
+     kịch bản mẫu An, Bình, Châu và in các phép duyệt BST NLR, LNR, LRN.

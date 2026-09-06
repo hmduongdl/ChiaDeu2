@@ -1,0 +1,26 @@
+# Binaries & Executables
+/chiadeu
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts & Coverage
+*.test
+*.out
+*.prof
+coverage.out
+
+# IDEs & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Output logs & Temp data
+*.log
+tmp/
